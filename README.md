@@ -175,7 +175,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 
 | Dataset | Authors | Date | Notes |
 | :--- | :--- | :--- | :--- |
-| [Urdu Instruct](https://huggingface.co/datasets/large-traversaal/urdu-instruct) | Traversaal.ai | 2025 | Diverse prompts for broad capability alignment. |
+| [Urdu Instruct Test](https://huggingface.co/datasets/large-traversaal/urdu-instruct/viewer/default/test) | Traversaal.ai | 2025 | Diverse prompts for broad capability alignment. |
 | [OpenbookQA Urdu](https://huggingface.co/datasets/large-traversaal/openbookqa_urdu_cleaned) | Traversaal.ai | 2025 | OpenBookQA Benchmark Translation  |
 | [Math500 Urdu ](https://huggingface.co/datasets/large-traversaal/math500_urdu_cleaned) | Traversaal.ai | 2025 | Math500 Benchmark Translation |
 | [CommonSenseQA Urdu](https://huggingface.co/datasets/large-traversaal/commonsenseqa_urdu_cleaned) | Traversaal.ai | 2025 | CommonsenseQA Benchmark Translation  |
