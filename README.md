@@ -14,8 +14,8 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | Dataset | Authors | Date | Notes |
 | :--- | :--- | :--- | :--- |
 | [Urdu Rekhta](https://huggingface.co/datasets/mahwizzzz/Urdu_Rekhta) | Mahwiz Khalil | 2025 | Literary Domain including Structured poetry metadata and rhymes. |
-| [Rekhta Ghazals](https://github.com/amir9ume/urdu_ghazals_rekhta) | Rekhta Community | — |  High-quality literary text for Domain Adaptation |
-| [Maḵẖzan](https://github.com/zeerakahmed/makhzan) | Zeerak Ahmed | — | Classical Urdu Data for Pre-training |
+| [Rekhta Ghazals](https://github.com/amir9ume/urdu_ghazals_rekhta) | Rekhta Community | 2020 |  High-quality literary text for Domain Adaptation |
+| [Maḵẖzan](https://github.com/zeerakahmed/makhzan) | Zeerak Ahmed | 2020 | Classical Urdu Data for Pre-training |
 | [UFAL Urdu Corpus](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0023-65A9-5) | UFAL | 2014 | 5.4M sentences with linguistic morphology tags. |
 | [Urdu Wikipedia Dumps](https://dumps.wikimedia.org/urwiki/) | Wikimedia | Ongoing |High-factuality encyclopedic text for Knowledge Base Injection |
 | [iNLTK Wiki Articles](https://www.kaggle.com/disisbig/urdu-wikipedia-articles) | iNLTK | 2020 | Cleaned Knowledge Data |
@@ -25,7 +25,6 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [WMT Raw](http://data.statmt.org/ngrams/raw/) | WMT | 2017 | Web Text useful for robustness training. |
 | [Leipzig Corpora](https://wortschatz.uni-leipzig.de/en/download/urd) | Univ. Leipzig | — | Curated Monolingual Text  |
 | [Urdu Quotes](https://huggingface.co/datasets/mahwizzzz/UrduQuotes) | Mahwiz Khalil | 2023 |Aphorisms and proverbs for semantic understanding.
- |
 
 
 ---
