@@ -5,9 +5,9 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 
 ---
 
-- [LLM Datasets](#datasets)
-- [LLM Datasets](#models)
-- [LLM Datasets](#tools)
+- [Datasets](#datasets)
+- [Models](#models)
+- [Tools](#tools)
 
 ---
 
