@@ -40,6 +40,8 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 ## 2. Instruction Tuning 
 **Task Description:** Complex prompt-response pairs and semantic clusters. Used for **Instruction Tuning ** to improve reasoning and instruction following  capabilities.
 
+### General-purpose
+
 | Dataset | Authors | Date | Notes |
 | :--- | :--- | :--- | :--- |
 | [Urdu Chat Alpaca](https://huggingface.co/datasets/large-traversaal/urdu_chat_alpaca) | Traversaal.ai | 2025 |Synthetic/Distilled data of52k Alpaca samples translated for general instruction following. |
@@ -57,9 +59,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Wiki- UQA](https://huggingface.co/datasets/uqa/Wiki-UQA) | Samee Arif | 2024 | Wikipedia-grounded QA pairs for RAG/Context. |
 
 
-## 3. Task Specific Fine-tuning
-
-**Sequence Classification & Alignment**
+### Sequence Classification & Alignment
 
 **Task Description:** Labeled data for **Sequence Classification**. These datasets are critical for training **Reward Models (RM)** in RLHF pipelines or building specialized classifiers for sentiment and safety (guardrails).
 
@@ -74,7 +74,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Awesome Urdu]( https://github.com/urduhack/awesome-urdu/tree/master) | Ikram Ali | 2019 | Differnet Urdu NLP and NLU Datasets |
                      
                                                                                                                                                     
-### B. Token Classification (POS, NER)
+### Token Classification (POS, NER)
 **Task Description:** Text with token-level annotations. Used for **Token Classification** tasks to extract structured entities (NER) or understand syntactic roles (POS), improving the model's information extraction capabilities.
 
 | Dataset | Authors | Date | Notes |
@@ -86,7 +86,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Urdu Word Segmentation](https://github.com/harisbinzia/Urdu-Word-Segmentation) | Haris Bin Zia | 2018 | Tokenizer Optimization / CRF |
 
 
-### c. Semantic Tasks (Summarization, Data Augmentation)
+### Semantic Tasks (Summarization, Data Augmentation)
 **Task Description:** Paired or unpaired text data used for semantic generation tasks. The model learns to map source text to a semantically faithful target text (summaries or augmented variants), focusing on meaning preservation, abstraction, and contextual coherence rather than token-level labeling.
 
 | Dataset | Authors | Date | Notes |
@@ -100,7 +100,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 
 
 
-## 4. Multimodal (Vision–Language)
+### Multimodal (Vision–Language)
 **Task Description:** Image-Text pairs used for **Visual Language Modeling (VLM)**. Enables the model to perform image captioning, visual reasoning, and multimodal alignment.
 
 | Dataset | Authors | Date | Notes |
@@ -109,7 +109,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [CLE Urdu Image Corpora](https://www.cle.org.pk/clestore/imagecorpora.htm) | CLE Pakistan | — | OCR / Visual Grounding |
 
 
-## 5. OCR & Text Recognition
+### OCR & Text Recognition
 **Task Description:** Images of text paired with transcriptions. Used to train **Optical Character Recognition (OCR)** encoders or to fine-tune multimodal models on the Nastaliq script.
 
 | Dataset | Authors | Date | Notes |
@@ -121,7 +121,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Cursive-Text](https://www.sciencedirect.com/science/article/pii/S2352340920306430) | Scene Text Authors | 2020 | Natural Scene Text OCR |
 
 
-## 6. Machine Translation (Seq2Seq)
+### Machine Translation (Seq2Seq)
 **Task Description:** Parallel bitexts (English-Urdu). Used for **Sequence-to-Sequence (Seq2Seq)** training to align the Urdu embedding space with high-resource languages like English.
 
 | Dataset | Authors | Date | Notes |
@@ -133,7 +133,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [CLEU Corpus](http://ucrel.lancs.ac.uk/textreuse/cleu.php) | UCREL | 2018 | Translation & Reuse Detection |
 
 
-## 8. Transliteration & Normalization
+### Transliteration & Normalization
 **Task Description:** Character-level mappings between scripts. Used for **Text Normalization** pipelines to handle Romanized Urdu input or convert scripts before tokenization.
 
 | Dataset | Authors | Date | Notes |
@@ -144,7 +144,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Ur–RomUr–Eng Dict](https://github.com/MoizRauf/Urdu--Roman-Urdu--English--Dictionary) | Moiz Rauf | 2019 | Multi-script Dictionary |
 
 
-## 9. Lexical & Linguistic Resources
+### Lexical & Linguistic Resources
 **Task Description:** Dictionaries and N-grams. Used for **Tokenizer Training** (BPE/WordPiece), vocabulary expansion, and heuristic data filtering/cleaning.
 
 | Dataset | Authors | Date | Notes |
@@ -156,7 +156,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Urdu N-grams](https://www.kaggle.com/tafseerahmed/urdu-ngrams) | Kaggle | 2020 | Statistical Language Modeling |
 
 
-## 10. Speech & Audio (ASR)
+### Speech & Audio (ASR)
 **Task Description:** Audio paired with text transcriptions. Used for training **Automatic Speech Recognition (ASR)** models or fine-tuning Whisper-style models for Urdu.
 
 | Dataset | Authors | Date | Notes |
