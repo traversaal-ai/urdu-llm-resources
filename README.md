@@ -5,14 +5,16 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 
 ---
 
-- [LLM Datasets](#llm-datasets)
-  - [Pre-training Corpora](#pre-training-corpora)
+- [LLM Datasets](#datasets)
+- [LLM Datasets](#models)
+- [LLM Datasets](#tools)
+
 ---
 
-# LLM Datasets
+# Datasets
 
 
-## Pre-training Corpora 
+## 1. Pre-training Corpora 
 **Task Description:** Raw, unlabeled text used for **Causal Language Modeling (CLM)**. These datasets are essential for the foundational training phase to teach the model grammar, world knowledge, and vocabulary via next-token prediction.
 
 | Dataset | Authors | Date | Notes |
@@ -184,7 +186,17 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Urdu-Sindhi Emotion](https://zenodo.org/record/3685274) | Researchers | 2020 | Speech Emotion Recognition |
 
 
-# Tools & Utilities
+# Models
+**Use Case:** Ready-to-use weights (Adapters/LLMs) to use as baselines or functional tools.
+
+| Collection / Model | Maintainer | Notes |
+| :--- | :--- | :--- |
+| [Alif-1.0-8B-Instruct](https://huggingface.co/large-traversaal/Alif-1.0-8B-Instruct) | Traversaal.ai | 8B parameter instruction-tuned model (Llama-3 based). Best for semantic tasks. |
+| [Mahwizzzz Models](https://huggingface.co/mahwizzzz) | Mahwizzzz | Collection of fine-tuned models for specific Urdu tasks. |
+| [UrduHack Models](https://huggingface.co/urduhack) | UrduHack | BERT/RoBERTa encoders optimized for Sentiment and NER. |
+
+
+# Tools
 
 Essential libraries, models, and resources for building Urdu LLM pipelines.
 
@@ -201,16 +213,7 @@ Essential libraries, models, and resources for building Urdu LLM pipelines.
 | [LughaatNLP](https://github.com/Hassan-M-Khan/LughaatNLP) | Library | Lexical processing and stemming. |
 | [UNLT](https://github.com/UCREL/UNLT) | Toolkit | UCREL normalization and stemming utilities. |
 
-## 2.Model-Based Utilities (HuggingFace)
-**Use Case:** Ready-to-use weights (Adapters/LLMs) to use as baselines or functional tools.
-
-| Collection / Model | Maintainer | Notes |
-| :--- | :--- | :--- |
-| [Alif-1.0-8B-Instruct](https://huggingface.co/large-traversaal/Alif-1.0-8B-Instruct) | Traversaal.ai | 8B parameter instruction-tuned model (Llama-3 based). Best for semantic tasks. |
-| [Mahwizzzz Models](https://huggingface.co/mahwizzzz) | Mahwizzzz | Collection of fine-tuned models for specific Urdu tasks. |
-| [UrduHack Models](https://huggingface.co/urduhack) | UrduHack | BERT/RoBERTa encoders optimized for Sentiment and NER. |
-
-## 3.APIs & Online Services
+## 2.APIs & Online Services
 **Use Case:** Benchmarking and OCR/TTS without local deployment.
 
 | Service | Provider | Notes |
@@ -221,7 +224,7 @@ Essential libraries, models, and resources for building Urdu LLM pipelines.
 | [Google Translate](https://translate.google.com/) | Google | Translator (Other Language ↔ Urdu). |
 | [Matnsaz](https://matnsaz.net/) | Tool | Autocorrecter: Writing assistant for text validation. |
 
-## 4.Input & Typography
+## 3.Input & Typography
 **Use Case:** Solving Nastaliq rendering issues and input testing.
 
 | Resource | Category | Notes |
