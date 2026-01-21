@@ -35,7 +35,6 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Urdu Quotes](https://huggingface.co/datasets/mahwizzzz/UrduQuotes) | Mahwiz Khalil | 2023 |Aphorisms and proverbs for semantic understanding.
 
 
----
 
 ## 2. Instruction Tuning 
 **Task Description:** Complex prompt-response pairs and semantic clusters. Used for **Instruction Tuning ** to improve reasoning and instruction following  capabilities.
@@ -56,7 +55,6 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Urdu Q-A](https://github.com/nabeelDanish/Urdu-Q-A-System) | Nabeel Danish | 2024 |Dataset built for retrieval systems. |
 | [Wiki- UQA](https://huggingface.co/datasets/uqa/Wiki-UQA) | Samee Arif | 2024 | Wikipedia-grounded QA pairs for RAG/Context. |
 
----
 
 ## 3. Task Specific Fine-tuning
 
@@ -98,8 +96,6 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [TaPaCo](https://zenodo.org/record/3707949) | Scherrer et al. | 2020 | Data Augmentation / Paraphrasing |
 | [ursum](https://huggingface.co/datasets/mahwizzzz/ursum) | Mahwiz Khalil | 2023 | Urdu SUmmarization |
 
----
-
 
 ## 4. Evaluation & Analysis Benchmarks
 **Task Description:** Standardized test sets for **Zero-shot and Few-shot Evaluation**. These datasets must be excluded from training data to prevent contamination and ensure valid performance metrics.
@@ -112,7 +108,6 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [MGSM Urdu](https://huggingface.co/datasets/large-traversaal/mgsm_urdu_cleaned) | Traversaal.ai | 2025 | MGSM Benchmark Translation  |
 | [Urdu Error Correction](https://huggingface.co/datasets/mahwizzzz/urdu_error_correction) | Mahwiz Khalil | 2025 |Error Detection & Correction |
 
----
 
 ## 5. Multimodal (Vision–Language)
 **Task Description:** Image-Text pairs used for **Visual Language Modeling (VLM)**. Enables the model to perform image captioning, visual reasoning, and multimodal alignment.
@@ -122,7 +117,6 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Flickr8k Urdu Captions](https://github.com/abdullahzia510/Effecient-Urdu-Caption-Generation-using-Attention-Mechanism) | Abdullah Zia | 2020 | Image-to-Text Generation |
 | [CLE Urdu Image Corpora](https://www.cle.org.pk/clestore/imagecorpora.htm) | CLE Pakistan | — | OCR / Visual Grounding |
 
----
 
 ## 6. OCR & Text Recognition
 **Task Description:** Images of text paired with transcriptions. Used to train **Optical Character Recognition (OCR)** encoders or to fine-tune multimodal models on the Nastaliq script.
@@ -135,7 +129,6 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [IIIT-H Urdu OCR](https://cvit.iiit.ac.in/research/projects/cvit-projects/iiit-urdu-ocr) | IIIT Hyderabad | 2017 | Printed Text OCR |
 | [Cursive-Text](https://www.sciencedirect.com/science/article/pii/S2352340920306430) | Scene Text Authors | 2020 | Natural Scene Text OCR |
 
----
 
 ## 7. Machine Translation (Seq2Seq)
 **Task Description:** Parallel bitexts (English-Urdu). Used for **Sequence-to-Sequence (Seq2Seq)** training to align the Urdu embedding space with high-resource languages like English.
@@ -148,7 +141,6 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Anuvaad Parallel Corpus](https://github.com/project-anuvaad/anuvaad-parallel-corpus) | Govt. of India | — | Legal/Admin Documentation |
 | [CLEU Corpus](http://ucrel.lancs.ac.uk/textreuse/cleu.php) | UCREL | 2018 | Translation & Reuse Detection |
 
----
 
 ## 8. Transliteration & Normalization
 **Task Description:** Character-level mappings between scripts. Used for **Text Normalization** pipelines to handle Romanized Urdu input or convert scripts before tokenization.
@@ -160,7 +152,6 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Roman-Urdu Corpus](https://github.com/irshadbhat/roman-urdu-corpus) | Irshad Bhat | 2020 | Roman-to-Nastaliq Mapping |
 | [Ur–RomUr–Eng Dict](https://github.com/MoizRauf/Urdu--Roman-Urdu--English--Dictionary) | Moiz Rauf | 2019 | Multi-script Dictionary |
 
----
 
 ## 9. Lexical & Linguistic Resources
 **Task Description:** Dictionaries and N-grams. Used for **Tokenizer Training** (BPE/WordPiece), vocabulary expansion, and heuristic data filtering/cleaning.
@@ -173,7 +164,6 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [IndoWordNet](https://github.com/anoopkunchukuttan/indowordnet_parallel) | IIT Bombay | — | Multilingual WordNet |
 | [Urdu N-grams](https://www.kaggle.com/tafseerahmed/urdu-ngrams) | Kaggle | 2020 | Statistical Language Modeling |
 
----
 
 ## 10. Speech & Audio (ASR)
 **Task Description:** Audio paired with text transcriptions. Used for training **Automatic Speech Recognition (ASR)** models or fine-tuning Whisper-style models for Urdu.
