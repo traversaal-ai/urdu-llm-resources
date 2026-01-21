@@ -232,3 +232,7 @@ Essential libraries, models, and resources for building Urdu LLM pipelines.
 | [Urdu Fonts](https://luc.devroye.org/fonts-45771.html) | Fonts | Testing model output rendering (Nastaliq vs Naskh). |
 | [Branah Keyboard](https://www.branah.com/urdu) | Input | Virtual keyboard for prompt testing. |
 | [Lexilogos](https://www.lexilogos.com/keyboard/urdu.htm) | Input | Phonetic keyboard layout. |
+
+# References
+Please let me know if a dataset is not properly credited.
+- Wei-Lin Chiang et al, "Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality," 2023.
