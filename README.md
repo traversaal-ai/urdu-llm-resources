@@ -4,7 +4,7 @@ A comprehensive registry of **Urdu datasets, models, and tools** designed for th
 This repository aims to standardize the data landscape for Urdu as a low-to-mid resource language.
 
 ---
-s
+
 - [LLM Datasets](#llm-datasets)
   - [Pre-training Corpora](#pre-training-corpora)
 ---
@@ -12,7 +12,7 @@ s
 # LLM Datasets
 
 
-## 1. Pre-training Corpora 
+## Pre-training Corpora 
 **Task Description:** Raw, unlabeled text used for **Causal Language Modeling (CLM)**. These datasets are essential for the foundational training phase to teach the model grammar, world knowledge, and vocabulary via next-token prediction.
 
 | Dataset | Authors | Date | Notes |
