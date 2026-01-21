@@ -198,7 +198,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 
 Essential libraries, models, and resources for building Urdu LLM pipelines.
 
-## 1.Python Libraries 
+### Python Libraries 
 **Use Case:** NLP, Data cleaning, normalization, and linguistic analysis.
 
 | Tool | Type | Notes |
@@ -211,7 +211,7 @@ Essential libraries, models, and resources for building Urdu LLM pipelines.
 | [LughaatNLP](https://github.com/Hassan-M-Khan/LughaatNLP) | Library | Lexical processing and stemming. |
 | [UNLT](https://github.com/UCREL/UNLT) | Toolkit | UCREL normalization and stemming utilities. |
 
-## 2.APIs & Online Services
+### APIs & Online Services
 **Use Case:** Benchmarking and OCR/TTS without local deployment.
 
 | Service | Provider | Notes |
@@ -222,7 +222,7 @@ Essential libraries, models, and resources for building Urdu LLM pipelines.
 | [Google Translate](https://translate.google.com/) | Google | Translator (Other Language ↔ Urdu). |
 | [Matnsaz](https://matnsaz.net/) | Tool | Autocorrecter: Writing assistant for text validation. |
 
-## 3.Input & Typography
+### Input & Typography
 **Use Case:** Solving Nastaliq rendering issues and input testing.
 
 | Resource | Category | Notes |
