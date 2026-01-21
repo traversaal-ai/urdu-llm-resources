@@ -1,0 +1,23 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: urdu-llm
+message: >-
+  High-quality datasets and tools useful for LLMs
+  fine-tuning.
+type: software
+authors:
+  - given-names: Layba
+    family-names: Fiaz
+    affiliation: Traversaal AI
+  - given-names: Ali
+    family-names: Shafique
+    affiliation: Traversaal AI
+ - given-names: Usman
+    family-names: Qadeer
+    affiliation: Traversaal AI
+ - given-names: Areej
+    family-names: Mehboob
+    affiliation: Traversaal AI
+repository-code: 'https://github.com/traversaal-ai/urdu-llm'
