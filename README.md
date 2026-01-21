@@ -187,6 +187,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [LibriVox Urdu](https://librivox.org/search?primary_key=57&search_category=language&search_page=1&search_form=get_results) | Community | — | Audiobooks (Long-form ASR) |
 | [Urdu-Sindhi Emotion](https://zenodo.org/record/3685274) | Researchers | 2020 | Speech Emotion Recognition |
 
+---
 
 # Models
 **Use Case:** Ready-to-use weights (Adapters/LLMs) to use as baselines or functional tools.
@@ -197,6 +198,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Mahwizzzz Models](https://huggingface.co/mahwizzzz) | Mahwizzzz | Collection of fine-tuned models for specific Urdu tasks. |
 | [UrduHack Models](https://huggingface.co/urduhack) | UrduHack | BERT/RoBERTa encoders optimized for Sentiment and NER. |
 
+---
 
 # Tools
 
@@ -235,6 +237,8 @@ Essential libraries, models, and resources for building Urdu LLM pipelines.
 | [Branah Keyboard](https://www.branah.com/urdu) | Input | Virtual keyboard for prompt testing. |
 | [Lexilogos](https://www.lexilogos.com/keyboard/urdu.htm) | Input | Phonetic keyboard layout. |
 
+---
+
 # Pull Requests
 
 We welcome **pull requests (PRs)** that add or improve **Urdu datasets, models, and tools** relevant to Urdu NLP and Large Language Model (LLM) development.
@@ -258,6 +262,7 @@ You can contribute by:
 
 All contributions help strengthen the Urdu LLM ecosystem.
 
+---
 
 # References
 Please let me know if a dataset is not properly credited.
