@@ -6,6 +6,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 ---
 
 - [Datasets](#datasets)
+- [Evaluation & Analysis Benchmarks](benchmarks)
 - [Models](#models)
 - [Tools](#tools)
 - [Contributing / Pull Requests](#pullrequests)
@@ -58,7 +59,8 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 
 ## 3. Task Specific Fine-tuning
 
-### A. Sequence Classification & Alignment
+**Sequence Classification & Alignment**
+
 **Task Description:** Labeled data for **Sequence Classification**. These datasets are critical for training **Reward Models (RM)** in RLHF pipelines or building specialized classifiers for sentiment and safety (guardrails).
 
 | Dataset | Authors | Date | Notes |
@@ -97,19 +99,8 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [ursum](https://huggingface.co/datasets/mahwizzzz/ursum) | Mahwiz Khalil | 2023 | Urdu SUmmarization |
 
 
-## 4. Evaluation & Analysis Benchmarks
-**Task Description:** Standardized test sets for **Zero-shot and Few-shot Evaluation**. These datasets must be excluded from training data to prevent contamination and ensure valid performance metrics.
 
-| Dataset | Authors | Date | Notes |
-| :--- | :--- | :--- | :--- |
-| [OpenbookQA Urdu](https://huggingface.co/datasets/large-traversaal/openbookqa_urdu_cleaned) | Traversaal.ai | 2025 | OpenBookQA Benchmark Translation  |
-| [Math500 Urdu ](https://huggingface.co/datasets/large-traversaal/math500_urdu_cleaned) | Traversaal.ai | 2025 | Math500 Benchmark Translation |
-| [CommonSenseQA Urdu](https://huggingface.co/datasets/large-traversaal/commonsenseqa_urdu_cleaned) | Traversaal.ai | 2025 | CommonsenseQA Benchmark Translation  |
-| [MGSM Urdu](https://huggingface.co/datasets/large-traversaal/mgsm_urdu_cleaned) | Traversaal.ai | 2025 | MGSM Benchmark Translation  |
-| [Urdu Error Correction](https://huggingface.co/datasets/mahwizzzz/urdu_error_correction) | Mahwiz Khalil | 2025 |Error Detection & Correction |
-
-
-## 5. Multimodal (Vision–Language)
+## 4. Multimodal (Vision–Language)
 **Task Description:** Image-Text pairs used for **Visual Language Modeling (VLM)**. Enables the model to perform image captioning, visual reasoning, and multimodal alignment.
 
 | Dataset | Authors | Date | Notes |
@@ -118,7 +109,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [CLE Urdu Image Corpora](https://www.cle.org.pk/clestore/imagecorpora.htm) | CLE Pakistan | — | OCR / Visual Grounding |
 
 
-## 6. OCR & Text Recognition
+## 5. OCR & Text Recognition
 **Task Description:** Images of text paired with transcriptions. Used to train **Optical Character Recognition (OCR)** encoders or to fine-tune multimodal models on the Nastaliq script.
 
 | Dataset | Authors | Date | Notes |
@@ -130,7 +121,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Cursive-Text](https://www.sciencedirect.com/science/article/pii/S2352340920306430) | Scene Text Authors | 2020 | Natural Scene Text OCR |
 
 
-## 7. Machine Translation (Seq2Seq)
+## 6. Machine Translation (Seq2Seq)
 **Task Description:** Parallel bitexts (English-Urdu). Used for **Sequence-to-Sequence (Seq2Seq)** training to align the Urdu embedding space with high-resource languages like English.
 
 | Dataset | Authors | Date | Notes |
@@ -176,6 +167,19 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [CMU Wilderness](http://www.festvox.org/cmu_wilderness/) | CMU | 2019 | Aligned Speech (Bible) |
 | [LibriVox Urdu](https://librivox.org/search?primary_key=57&search_category=language&search_page=1&search_form=get_results) | Community | — | Audiobooks (Long-form ASR) |
 | [Urdu-Sindhi Emotion](https://zenodo.org/record/3685274) | Researchers | 2020 | Speech Emotion Recognition |
+
+---
+
+# Benchmarks
+**Task Description:** Standardized test sets for **Zero-shot and Few-shot Evaluation**. These datasets must be excluded from training data to prevent contamination and ensure valid performance metrics.
+
+| Dataset | Authors | Date | Notes |
+| :--- | :--- | :--- | :--- |
+| [OpenbookQA Urdu](https://huggingface.co/datasets/large-traversaal/openbookqa_urdu_cleaned) | Traversaal.ai | 2025 | OpenBookQA Benchmark Translation  |
+| [Math500 Urdu ](https://huggingface.co/datasets/large-traversaal/math500_urdu_cleaned) | Traversaal.ai | 2025 | Math500 Benchmark Translation |
+| [CommonSenseQA Urdu](https://huggingface.co/datasets/large-traversaal/commonsenseqa_urdu_cleaned) | Traversaal.ai | 2025 | CommonsenseQA Benchmark Translation  |
+| [MGSM Urdu](https://huggingface.co/datasets/large-traversaal/mgsm_urdu_cleaned) | Traversaal.ai | 2025 | MGSM Benchmark Translation  |
+| [Urdu Error Correction](https://huggingface.co/datasets/mahwizzzz/urdu_error_correction) | Mahwiz Khalil | 2025 |Error Detection & Correction |
 
 ---
 
