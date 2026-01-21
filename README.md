@@ -8,6 +8,8 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 - [Datasets](#datasets)
 - [Models](#models)
 - [Tools](#tools)
+- [Contributing / Pull Requests](#pullrequests)
+- [References](#references)
 
 ---
 
@@ -232,6 +234,30 @@ Essential libraries, models, and resources for building Urdu LLM pipelines.
 | [Urdu Fonts](https://luc.devroye.org/fonts-45771.html) | Fonts | Testing model output rendering (Nastaliq vs Naskh). |
 | [Branah Keyboard](https://www.branah.com/urdu) | Input | Virtual keyboard for prompt testing. |
 | [Lexilogos](https://www.lexilogos.com/keyboard/urdu.htm) | Input | Phonetic keyboard layout. |
+
+# Pull Requests
+
+We welcome **pull requests (PRs)** that add or improve **Urdu datasets, models, and tools** relevant to Urdu NLP and Large Language Model (LLM) development.
+
+You can contribute by:
+- Adding new **datasets** (pre-training, SFT/instruction tuning, evaluation)
+- Adding **LLM or embedding models** supporting Urdu
+- Adding **tools, scripts, or benchmarks** for training, evaluation, or inference
+- Fixing errors, improving documentation, or standardizing metadata
+
+### How to Submit a PR
+1. Fork the repository
+2. Create a new branch (`feature/add-urdu-dataset`)
+3. Add your resource under the appropriate section
+4. Include:
+   - Short description
+   - License
+   - Data source / paper / link
+   - Intended use (Pretraining / SFT / Eval / Inference)
+5. Open a pull request with a clear summary
+
+All contributions help strengthen the Urdu LLM ecosystem.
+
 
 # References
 Please let me know if a dataset is not properly credited.
