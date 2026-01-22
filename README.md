@@ -1,12 +1,13 @@
 <div align="center">
-  <img src="https://github.com/traversaal-ai/urdu-llm/raw/main/repo_card%20(2).png" alt="Urdu LLM Banner" width="70%" />
+  <img src="https://github.com/traversaal-ai/urdu-llm/raw/main/repo_card%20(3).png" alt="Urdu LLM Banner" width="70%" />
 
   <p>
     <b>Resources for Urdu Large Language Models</b>
     <br/>
   </p>
 
-  <p>
+  <p> 
+    <a> Follow us on: </a> •
     <a href="https://huggingface.co/large-traversaal/spaces">🤗 Hugging Face</a> •
     <a href="https://traversaal.ai/">🌐 Traversaal.ai</a> •
     <a href="https://www.linkedin.com/company/traversaal-ai">👔 LinkedIn</a>
