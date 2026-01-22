@@ -1,3 +1,24 @@
+<div align="center">
+
+  <img src="repo_card(2).png" alt="Urdu LLM Banner" width="100%" />
+
+  <p>
+    <b>Resources for Urdu Large Language Models</b>
+    <br/>
+  </p>
+
+  <p>
+    <a href="https://huggingface.co/large-traversaal/spaces">🤗 Hugging Face</a> •
+    <a href="https://traversaal.ai/">🌐 Traversaal.ai</a> •
+    <a href="https://www.linkedin.com/company/traversaal-ai">👔 LinkedIn</a>
+  </p>
+
+</div>
+
+<hr>
+
+
+
 # Urdu Datasets & Engineering Resources
 
 A comprehensive registry of **Urdu datasets, models, and tools** designed for the urdu NLP and Large Language Models (LLM) development. Resources are taxonomized by use case, from **Pre-training** (CLM) and **Supervised Fine-tuning** (SFT/Instruction Tuning) to **Evaluation** and **Inference**.
