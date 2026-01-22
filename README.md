@@ -283,14 +283,10 @@ All contributions help strengthen the Urdu LLM ecosystem.
 # References
 Please let me know if a dataset is not properly credited.
 
-- Muhammad Ali Shafique et al, "[Alif: Advancing Urdu Large Language Models via Multilingual Synthetic Data Distillation](https://arxiv.org/abs/2510.09051)," 2025.  
 - Rekhta Community, "[Rekhta Ghazals: High-Quality Literary Text for Domain Adaptation](https://github.com/amir9ume/urdu_ghazals_rekhta)," 2020.  
-- Traversaal.ai, "[Urdu Chat Alpaca: Synthetic/Distilled Alpaca Samples for Instruction Following](https://huggingface.co/datasets/large-traversaal/urdu_chat_alpaca)," 2025.  
-- Traversaal.ai, "[Urdu Instruct: Diverse Prompts for Broad Capability Alignment](https://huggingface.co/datasets/large-traversaal/urdu-instruct)," 2025.  
 - Mahwiz Khalil, "[Urdu Rekhta: Literary Domain including Structured Poetry Metadata and Rhymes](https://huggingface.co/datasets/mahwizzzz/Urdu_Rekhta)," 2025.  
-- Traversaal.ai, "[OpenbookQA Urdu: Benchmark Translation](https://huggingface.co/datasets/large-traversaal/openbookqa_urdu_cleaned)," 2025.  
-- Traversaal.ai, "[Math500 Urdu: Benchmark Translation](https://huggingface.co/datasets/large-traversaal/math500_urdu_cleaned)," 2025.  
-- Traversaal.ai, "[CommonSenseQA Urdu: Benchmark Translation](https://huggingface.co/datasets/large-traversaal/commonsenseqa_urdu_cleaned)," 2025.  
 - Mahwiz Khalil, "[Urdu Assistant: Dialogue-Focused Dataset for Instruction Tuning](https://huggingface.co/datasets/mahwizzzz/UrduAssistant)," 2023.  
-- Samee Arif, "[UQA: Open-Domain Question Answering](https://huggingface.co/datasets/uqa/UQA)," 2024.  
+- Samee Arif, "[UQA: Open-Domain Question Answering](https://huggingface.co/datasets/uqa/UQA)," 2024.
+- Muhammad Ali Shafique et al, "[Alif: Advancing Urdu Large Language Models via Multilingual Synthetic Data Distillation](https://arxiv.org/abs/2510.09051)," 2025.  
+
 
