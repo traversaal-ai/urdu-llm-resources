@@ -7,7 +7,7 @@
   </p>
 
   <p> 
-    <a> Follow us on: </a> •
+    <a> Explore us on: </a> •
     <a href="https://huggingface.co/large-traversaal/spaces">🤗 Hugging Face</a> •
     <a href="https://traversaal.ai/">🌐 Traversaal.ai</a> •
     <a href="https://www.linkedin.com/company/traversaal-ai">👔 LinkedIn</a>
@@ -288,11 +288,9 @@ Please let me know if a dataset is not properly credited.
 - Traversaal.ai, "[Urdu Chat Alpaca: Synthetic/Distilled Alpaca Samples for Instruction Following](https://huggingface.co/datasets/large-traversaal/urdu_chat_alpaca)," 2025.  
 - Traversaal.ai, "[Urdu Instruct: Diverse Prompts for Broad Capability Alignment](https://huggingface.co/datasets/large-traversaal/urdu-instruct)," 2025.  
 - Mahwiz Khalil, "[Urdu Rekhta: Literary Domain including Structured Poetry Metadata and Rhymes](https://huggingface.co/datasets/mahwizzzz/Urdu_Rekhta)," 2025.  
-- Ahsan Farooqi, "[UQuAD: SQuAD-Style Urdu Question-Answer Dataset](https://github.com/ahsanfarooqui/UQuAD---Urdu-Question-Answer-Dataset/tree/main)," —.  
 - Traversaal.ai, "[OpenbookQA Urdu: Benchmark Translation](https://huggingface.co/datasets/large-traversaal/openbookqa_urdu_cleaned)," 2025.  
 - Traversaal.ai, "[Math500 Urdu: Benchmark Translation](https://huggingface.co/datasets/large-traversaal/math500_urdu_cleaned)," 2025.  
 - Traversaal.ai, "[CommonSenseQA Urdu: Benchmark Translation](https://huggingface.co/datasets/large-traversaal/commonsenseqa_urdu_cleaned)," 2025.  
 - Mahwiz Khalil, "[Urdu Assistant: Dialogue-Focused Dataset for Instruction Tuning](https://huggingface.co/datasets/mahwizzzz/UrduAssistant)," 2023.  
-- Muhammad Irfan, "[QA: Simple Fact-Retrieval Pairs](https://github.com/mirfan899/Urdu/tree/master/qa)," —.  
 - Samee Arif, "[UQA: Open-Domain Question Answering](https://huggingface.co/datasets/uqa/UQA)," 2024.  
 
