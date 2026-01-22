@@ -281,7 +281,7 @@ All contributions help strengthen the Urdu LLM ecosystem.
 ---
 
 # References
-Please let me know if a dataset is not properly credited.
+Please let us know if a dataset is not properly credited.
 
 - Rekhta Community, "[Rekhta Ghazals: High-Quality Literary Text for Domain Adaptation](https://github.com/amir9ume/urdu_ghazals_rekhta)," 2020.  
 - Mahwiz Khalil, "[Urdu Rekhta: Literary Domain including Structured Poetry Metadata and Rhymes](https://huggingface.co/datasets/mahwizzzz/Urdu_Rekhta)," 2025.  
