@@ -210,7 +210,8 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 
 | Collection / Model | Maintainer | Notes |
 | :--- | :--- | :--- |
-| [Alif-1.0-8B-Instruct](https://huggingface.co/large-traversaal/Alif-1.0-8B-Instruct) | Traversaal.ai | 8B parameter instruction-tuned model (Llama-3 based). Best for semantic tasks. |
+| [Alif-1.0-8B-Instruct](https://huggingface.co/large-traversaal/Alif-1.0-8B-Instruct) | Traversaal.ai | 8B parameter instruction-tuned model (Llama-3.1 based). |
+| [Qalb-1.0-8B-Instruct](https://huggingface.co/enstazao/Qalb-1.0-8B-Instruct) | Jawad Ahmed | 8B parameter instruction-tuned model (Llama-3.1 based) |
 | [Mahwizzzz Models](https://huggingface.co/mahwizzzz) | Mahwizzzz | Collection of fine-tuned models for specific Urdu tasks. |
 | [UrduHack Models](https://huggingface.co/urduhack) | UrduHack | BERT/RoBERTa encoders optimized for Sentiment and NER. |
 
@@ -287,6 +288,8 @@ Please let us know if a dataset is not properly credited.
 - Mahwiz Khalil, "[Urdu Rekhta: Literary Domain including Structured Poetry Metadata and Rhymes](https://huggingface.co/datasets/mahwizzzz/Urdu_Rekhta)," 2025.  
 - Mahwiz Khalil, "[Urdu Assistant: Dialogue-Focused Dataset for Instruction Tuning](https://huggingface.co/datasets/mahwizzzz/UrduAssistant)," 2023.  
 - Samee Arif, "[UQA: Open-Domain Question Answering](https://huggingface.co/datasets/uqa/UQA)," 2024.
-- Muhammad Ali Shafique et al, "[Alif: Advancing Urdu Large Language Models via Multilingual Synthetic Data Distillation](https://arxiv.org/abs/2510.09051)," 2025.  
+- Muhammad Ali Shafique et al, "[Alif: Advancing Urdu Large Language Models via Multilingual Synthetic Data Distillation](https://arxiv.org/abs/2510.09051)," 2025.
+- {Muhammad Taimoor Hassan and Jawad Ahmed and Muhammad Awais, "[Qalb: Largest State-of-the-Art Urdu Large Language Model for 230M Speakers with Systematic Continued Pre-training](https://arxiv.org/abs/2601.08141)".2026
+     
 
 
