@@ -26,7 +26,7 @@
 
 
 
-# Urdu Datasets & Engineering Resources
+# Resources for Urdu Large Language Models
 
 A comprehensive registry of **Urdu datasets, models, and tools** designed for the urdu NLP and Large Language Models (LLM) development. Resources are taxonomized by use case, from **Pre-training** (CLM) and **Supervised Fine-tuning** (SFT/Instruction Tuning) to **Evaluation** and **Inference**.
 This repository aims to standardize the data landscape for Urdu as a low-to-mid resource language.
