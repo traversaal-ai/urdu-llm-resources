@@ -1,5 +1,10 @@
 <div align="center">
-  <img src="https://github.com/traversaal-ai/urdu-llm/blob/main/card_repo.drawio.png" alt="Urdu LLM Banner" width="60%" />
+  <img 
+  src="https://github.com/user-attachments/assets/5c0a0a68-d513-4d21-a900-faa8c83a06e2"
+  alt="Urdu LLM Banner"
+  width="60%"
+/>
+
 
   <p>
     <b>Resources for Urdu Large Language Models</b>
