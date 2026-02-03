@@ -1,9 +1,7 @@
 <div align="center">
-  <img 
-  src="https://github.com/user-attachments/assets/5c0a0a68-d513-4d21-a900-faa8c83a06e2"
-  alt="Urdu LLM Banner"
-  width="60%"
-/>
+  
+<img width="3168" height="1344" alt="Gemini_Generated_Image_91val191val191va" src="https://github.com/user-attachments/assets/f2dc0b97-db13-4cd4-8d10-b315e79966f9" />
+
 
 
   <p>
