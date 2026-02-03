@@ -45,7 +45,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [OpenML](https://www.openml.org) | Open platform for sharing datasets, tasks, and benchmarks for machine learning research | Strong metadata, task-oriented dataset organization |
 | [Kaggle Datasets](https://www.kaggle.com/datasets) | Large repository of community-contributed datasets across diverse domains | Widely used for competitions and applied ML |
 | [Google Dataset Search](https://datasearch.research.google.com) | Search engine for discovering datasets published across the web | Useful for locating datasets via metadata and schema |
-
+| [Hugging Face Datasets (Urdu)](https://huggingface.co/datasets?other=urdu) | Filtered view of datasets related to the Urdu language on Hugging Face | Central hub for Urdu NLP datasets with model-ready formats |
 
 # Datasets
 
