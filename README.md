@@ -74,6 +74,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [WMT Raw](http://data.statmt.org/ngrams/raw/) | WMT | 2017 | Web Text useful for robustness training. |
 | [Leipzig Corpora](https://wortschatz.uni-leipzig.de/en/download/urd) | Univ. Leipzig | — | Curated Monolingual Text  |
 | [Urdu Quotes](https://huggingface.co/datasets/mahwizzzz/UrduQuotes) | Mahwiz Khalil | 2023 |Aphorisms and proverbs for semantic understanding.
+| [Urdu Wikipedia](https://huggingface.co/datasets/wikimedia/wikipedia/viewer/20231101.ur) | Huggingface | 2024 |Pretraining dataset based on various topics.
 
 
 
