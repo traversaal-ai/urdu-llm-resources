@@ -26,6 +26,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 
 ---
 
+- [Datasets](#collections)
 - [Datasets](#datasets)
 - [Evaluation & Analysis Benchmarks](benchmarks)
 - [Models](#models)
@@ -34,6 +35,17 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 - [References](#references)
 
 ---
+
+# Collections
+
+**Task Description:** Curated platforms and search engines that aggregate, host, and catalog datasets across multiple domains and tasks. These collections are useful for dataset discovery, benchmarking, and exploratory analysis rather than direct model pre-training.
+
+| Collection | Description | Notes |
+| :--- | :--- | :--- |
+| [OpenML](https://www.openml.org) | Open platform for sharing datasets, tasks, and benchmarks for machine learning research | Strong metadata, task-oriented dataset organization |
+| [Kaggle Datasets](https://www.kaggle.com/datasets) | Large repository of community-contributed datasets across diverse domains | Widely used for competitions and applied ML |
+| [Google Dataset Search](https://datasearch.research.google.com) | Search engine for discovering datasets published across the web | Useful for locating datasets via metadata and schema |
+
 
 # Datasets
 
