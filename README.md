@@ -214,7 +214,6 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Alif-1.0-8B-Instruct](https://huggingface.co/large-traversaal/Alif-1.0-8B-Instruct) | Traversaal.ai | 8B parameter instruction-tuned model (Llama-3.1 based). |
 | [Qalb-1.0-8B-Instruct](https://huggingface.co/enstazao/Qalb-1.0-8B-Instruct) | Jawad Ahmed | 8B parameter instruction-tuned model (Llama-3.1 based) |
 | [Mahwizzzz Models](https://huggingface.co/mahwizzzz) | Mahwizzzz | Collection of fine-tuned models for specific Urdu tasks. |
-| [UrduHack Models](https://huggingface.co/urduhack) | UrduHack | BERT/RoBERTa encoders optimized for Sentiment and NER. |
 
 ---
 
