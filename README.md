@@ -140,6 +140,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [45K Urdu Ligatures](https://github.com/UltramindSoft/45K-Clean-Background-Urdu-Ligatures-Dataset) | UltramindSoft | 2019 | Ligature Recognition |
 | [IIIT-H Urdu OCR](https://cvit.iiit.ac.in/research/projects/cvit-projects/iiit-urdu-ocr) | IIIT Hyderabad | 2017 | Printed Text OCR |
 | [Cursive-Text](https://www.sciencedirect.com/science/article/pii/S2352340920306430) | Scene Text Authors | 2020 | Natural Scene Text OCR |
+| [urdu-ocr-1M](https://huggingface.co/datasets/PuristanLabs1/urdu-ocr-1M) | Puristan Labs | 2026 | Urdu OCR |
 
 
 ### Machine Translation (Seq2Seq)
