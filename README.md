@@ -35,7 +35,7 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 
 - [Collections](#collections)
 - [Datasets](#datasets)
-- [Evaluation & Analysis Benchmarks](benchmarks)
+- [Evaluationm, Benchmarks and Leaderboard](#benchmarks)
 - [Models](#models)
 - [Tools](#tools)
 - [Contributing / Pull Requests](#pullrequests)
