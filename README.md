@@ -233,7 +233,11 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | :--- | :--- | :--- |
 | [Alif-1.0-8B-Instruct](https://huggingface.co/large-traversaal/Alif-1.0-8B-Instruct) | Traversaal.ai | 8B parameter instruction-tuned model (Llama-3.1 based). |
 | [Qalb-1.0-8B-Instruct](https://huggingface.co/enstazao/Qalb-1.0-8B-Instruct) | Muhammad Taimoor et. al | 8B parameter instruction-tuned model (Llama-3.1 based) |
-| [Mahwizzzz Models](https://huggingface.co/mahwizzzz) | Mahwizzzz | Collection of fine-tuned models for specific Urdu tasks. |
+| [whispLM-600m](https://huggingface.co/mahwizzzz/whispLM-600m) | Mahwiz Khalil | Speech-LLM (Whisper-tiny encoder + Qwen3-0.6B decoder) for low-resource Urdu ASR. 5.11% relative WER reduction over fine-tuned Whisper-tiny baseline. |
+| [lafzyn](https://huggingface.co/mahwizzzz/lafzyn) | Mahwiz Khalil | Qwen3.5-0.8B fine-tune for Urdu Grapheme-to-Phoneme (G2P), outputs IPA transcription. 16.94% mean PER on 500 held-out samples. |
+| [aegis](https://huggingface.co/mahwizzzz/aegis) | Mahwiz Khalil | Urdu PII detection/redaction model (fine-tuned from openai/privacy-filter) across 12 domains (legal, finance, healthcare, etc). 0.957 overlap F1. |
+| [aurix-v1](https://huggingface.co/mahwizzzz/aurix-v1) | Mahwiz Khalil | Whisper-large-v3-turbo fine-tune mapping Urdu speech directly to IPA phonemes for TTS labeling, forced alignment, pronunciation research. |
+| [Mahwizzzz Models](https://huggingface.co/mahwizzzz) | Mahwizzzz | Full collection of fine-tuned models for specific Urdu tasks. |
 
 ---
 
@@ -310,6 +314,3 @@ Please let us know if a dataset is not properly credited.
 - Samee Arif, "[UQA: Open-Domain Question Answering](https://huggingface.co/datasets/uqa/UQA)," 2024.
 - Muhammad Ali Shafique et al, "[Alif: Advancing Urdu Large Language Models via Multilingual Synthetic Data Distillation](https://arxiv.org/abs/2510.09051)," 2025.
 - {Muhammad Taimoor Hassan and Jawad Ahmed and Muhammad Awais, "[Qalb: Largest State-of-the-Art Urdu Large Language Model for 230M Speakers with Systematic Continued Pre-training](https://arxiv.org/abs/2601.08141)".2026
-     
-
-
