@@ -204,6 +204,8 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | Dataset | Authors | Date | Notes |
 | :--- | :--- | :--- | :--- |
 | [UAT](https://huggingface.co/datasets/mahwizzzz/UAT) | Mahwiz Khalil | 2025 | Urdu Audio and Text |
+| [Common Voice (Urdu)](https://commonvoice.mozilla.org/ur) | Mozilla | Ongoing | Crowdsourced Urdu speech–text pairs for ASR training. Also on [Hugging Face](https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0). |
+| [FLEURS (Urdu)](https://huggingface.co/datasets/google/fleurs) | Google | 2022 | Multilingual speech benchmark incl. Urdu (`ur_pk`); standard for ASR evaluation. |
 | [Urdu 250 Isolated Words](https://www.kaggle.com/hazrat/urdu-speech-dataset) | Hazrat | 2018 | Keyword Spotting (KWS) |
 | [CLE Phonetic Speech](https://www.cle.org.pk/software/ling_resources/phoneticallyrichurduspeechcorpus.htm) | CLE Pakistan | — | Phonetic Alignment / ASR |
 | [CMU Wilderness](http://www.festvox.org/cmu_wilderness/) | CMU | 2019 | Aligned Speech (Bible) |
@@ -234,6 +236,10 @@ This repository aims to standardize the data landscape for Urdu as a low-to-mid 
 | [Alif-1.0-8B-Instruct](https://huggingface.co/large-traversaal/Alif-1.0-8B-Instruct) | Traversaal.ai | 8B parameter instruction-tuned model (Llama-3.1 based). |
 | [Qalb-1.0-8B-Instruct](https://huggingface.co/enstazao/Qalb-1.0-8B-Instruct) | Muhammad Taimoor et. al | 8B parameter instruction-tuned model (Llama-3.1 based) |
 | [Mahwizzzz Models](https://huggingface.co/mahwizzzz) | Mahwizzzz | Collection of fine-tuned models for specific Urdu tasks. |
+| [MuRIL](https://huggingface.co/google/muril-base-cased) | Google | BERT pre-trained on 17 languages incl. Urdu + Roman-Urdu transliterations. Strong Urdu NER/XNLI baselines. |
+| [roberta-urdu-small](https://huggingface.co/urduhack/roberta-urdu-small) | Urduhack | 125M RoBERTa trained on Urdu news corpus (MIT). Lightweight baseline for classification. |
+| [NLLB-200](https://huggingface.co/facebook/nllb-200-distilled-600M) | Meta AI | Machine translation across 200 languages incl. Urdu (`urd_Arab`). CC-BY-NC (research use). |
+| [IndicTrans2](https://github.com/AI4Bharat/IndicTrans2) | AI4Bharat | Open-source En↔Indic translation models incl. Urdu. MIT-licensed. |
 
 ---
 
@@ -251,7 +257,7 @@ Essential libraries, models, and resources for building Urdu LLM pipelines.
 | [Stanza](https://stanfordnlp.github.io/stanza/) | Pipeline | High-accuracy dependency parsing and POS tagging. |
 | [spaCy](https://spacy.io/usage/models) | Pipeline | Industrial NLP pipeline with community Urdu support. |
 | [iNLTK](https://github.com/goru001/inltk) | Toolkit | Data Augmentation and embeddings. |
-| [LughaatNLP](https://github.com/Hassan-M-Khan/LughaatNLP) | Library | Lexical processing and stemming. |
+| [LughaatNLP](https://github.com/MuhammadNoman76/LughaatNLP) | Library | Lexical processing and stemming. |
 | [UNLT](https://github.com/UCREL/UNLT) | Toolkit | UCREL normalization and stemming utilities. |
 
 ### APIs & Online Services
