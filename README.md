@@ -301,6 +301,21 @@ All contributions help strengthen the Urdu LLM ecosystem.
 
 ---
 
+## Citation
+
+If you find Urdu LLM Resources useful in your research, please consider citing this repository:
+
+```bibtex
+@software{traversaalurdullmresources2026,
+  title        = {Urdu LLM Resources},
+  author       = {Layba Fiaz, Muhammad Ali Shafique, Areej Mehboob, Muhammad Usman Qadeer},
+  year         = {2026},
+  url          = {https://github.com/traversaal-ai/urdu-llm-resources},
+  note         = {GitHub repository}
+}
+
+---
+
 # References
 Please let us know if a dataset is not properly credited.
 
