@@ -313,7 +313,7 @@ If you find Urdu LLM Resources useful in your research, please consider citing t
   url          = {https://github.com/traversaal-ai/urdu-llm-resources},
   note         = {GitHub repository}
 }
-
+```
 ---
 
 # References
